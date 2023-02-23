@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="styles.css" />
+		<script src="https://kit.fontawesome.com/9a3ad56ebe.js" crossorigin="anonymous"></script>
+		<title>M1</title>
+	</head>
+	<style>
+
+		
+		.row {
+	background-color: rgba(124, 120, 120, 0.596);
+	position: relative;
+	left: 950px;
+	top: 5px;
+	line-height: 50px;
+	width: 600px;
+	border-radius: 5px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: black;
+	margin-top: -400px;
+}
+img {
+	height:60px;
+	width:80px;
+	
+}
+	</style>
+
+	<section>
+		<section class="booking" id="booking"></section>
+		<div class="book">
+			<form class="book-form">
+				<div class="title">
+					<h3>BOOKING DETAILS</h3>
+				</div>
+				<div class="form-item">
+					<label for="checkin-date">Name: </label>
+					<input type="text" id="name" />
+				</div>
+				<div class="form-item">
+					<label for="checkin-date">Check In Date: </label>
+					<input type="date" id="chekin-date" />
+				</div>
+				<div class="form-item">
+					<label for="checkout-date">Check Out Date: </label>
+					<input type="date" id="chekout-date" />
+				</div>
+				<div class="form-item">
+					<label for="adult">Adults: </label>
+					<input type="number" min="1" value="1" id="adult" />
+				</div>
+				<div class="form-item">
+					<label for="children">Children: </label>
+					<input type="number" min="1" value="1" id="children" />
+				</div>
+				<div class="form-item">
+					<label for="checkin-date">Total Amount: </label>
+					<input type="text" id="name" />
+				</div>
+			</div>
+	        </form>
+		</section>
+
+				<div class="row">
+					<div class="col-50">
+					  <h3>Payment Methods</h3>
+					  <label for="fname">Accepted Cards</label>
+					  <div class="icon-container">
+						<i class="fa fa-credit-card" style="font-size:36px"></i>
+						<i class="fa fa-cc-paypal" style="font-size:36px"></i>
+						<i class="fa fa-cc-visa" style="font-size:36px"></i>
+					  </div>
+					  <label for="cname">Name on Card</label>
+					  <input type="text" id="cname" name="cardname" placeholder="John More Doe"><br>
+					  <label for="ccnum">Credit card number</label>
+					  <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444"><br>
+					  <label for="expmonth">Online Payments:</label>
+					  <div class="pic">
+						<img
+						src="logo.jpg">
+					
+					</ul>
+					</div>
+					<a href="pricing.html"> <input type="submit" class="btn" value="Book Now" />
+					</a> 
+					
+				</div>
+				<a href="home.html">
+					<input type="check" class="btn" value="Back to homepage" />
+				</a> 
+
+	</body> 
+</html>
